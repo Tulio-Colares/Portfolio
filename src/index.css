@@ -334,7 +334,6 @@ button:hover {
   }
 
   a.link {
-    border: 1px solid white;
     flex-basis: 100%;
   }
 }
