@@ -324,3 +324,31 @@ button:hover {
   height: 2rem;
   margin-left: 1rem;
 }
+
+/* Responsividade */
+
+@media (max-width: 1000px) {
+  .header-container{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  a.link {
+    border: 1px solid white;
+    flex-basis: 100%;
+  }
+}
+
+@media (max-width: 1238px) {
+  #apresentacao {
+    padding: 0;
+  }
+
+  #apresentacao img {
+    margin-bottom: 3rem;
+  }
+
+  .cartao {
+    height: 700px;
+  }
+}
