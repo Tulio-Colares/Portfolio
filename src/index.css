@@ -1,0 +1,326 @@
+body {
+  margin: 0;
+  display: flex;
+  font-size: 20px;
+  background-color: rgb(52, 167, 196);
+  font-family: 'Roboto Slab', serif;
+}
+
+.separador {
+  color: rgb(52, 167, 196);
+  border: dotted ;
+  border-bottom: none;
+  margin: 100px auto;
+  width: 50px;
+}
+
+.corpo {
+  background-color: rgb(213, 252, 248);
+  text-align: center;
+  margin: auto;
+}
+
+/* Header */
+
+.Header {
+  background-color: rgb(52, 167, 196);
+  background: linear-gradient(to right, rgb(105, 225, 255),rgb(22, 100, 119));
+  display: flex;
+}
+
+.header-container {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 20px;
+}
+
+.link {
+  border-radius: 8px;
+  padding: 1rem 0;
+  flex-basis: 50px;
+  flex-grow: 1;
+  flex-shrink: 0;
+  font-size: 25px;
+  text-decoration: none;
+  color: white;
+  text-shadow: 4px 4px 4px black;
+  margin: 0 3%;
+}
+
+.link:hover {
+  color: rgb(52, 167, 196);
+  background-color: rgb(213, 252, 248);
+  text-shadow: 0 0 8px rgb(52, 167, 196);
+  transition: 250ms all linear;
+  cursor: pointer;
+}
+
+/* Frente */
+
+.frente-container {
+  background-image: url('./imagens/chip.jpg');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  height: 800px;
+
+}
+
+#frente {
+  position: relative;
+  bottom: 60px;
+  
+}
+
+.myName {
+  font-size: 120px;
+  padding: 60px 0 10px;
+  display: block;
+  text-decoration: underline rgb(52, 167, 196);
+}
+
+#frente p {
+  font-size: 45px;
+  padding-bottom: 4%;
+}
+
+/* Apresentação */
+
+#apresentacao {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  justify-content: center;
+}
+
+.titulo {
+  display: inline;
+  width: 100%;
+  margin-bottom: 100px;
+}
+
+.titulo h2 {
+  font-size: 3rem;
+}
+
+.mostrador {
+  margin-top: 30px;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  font-family: 'Roboto Slab', serif;
+}
+
+#apresentacao img {
+  box-shadow: 40px 40px rgb(52, 167, 196);
+  border-radius: 8px;
+  min-width: 80%;
+  height: auto;
+}
+
+.texto {
+  margin-top: 15px;
+  font-size: larger;
+  margin-left: 3%;
+}
+
+/* Habilidades */
+
+#habilidades {
+  border: 1px solid rgb(52, 167, 196);
+  border-radius: 50px;
+  box-shadow: 10px 10px 10px rgb(185, 185, 185);
+  margin: 60px;
+  background-color: rgb(52, 167, 196);
+  background: linear-gradient(to right, rgb(105, 225, 255),rgb(22, 100, 119));
+}
+
+.skills h1 {
+  font-family: 'Roboto Slab', serif;
+  font-size: 3rem;
+}
+
+.skills, .skill-row {
+  margin: 80px 0 80px 0;
+}
+
+.skill-row p {
+  width: 80%;
+  margin: 20px auto;
+  font-size: larger;
+  font-family: 'Roboto Slab', serif;
+}
+
+.symbol {
+  background-color: rgb(213, 252, 248);
+  box-shadow: inset 4px 4px 6px grey;
+  width: 185px;
+  height: 185px;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 40px 80px 40px;
+}
+
+.symbol h2 {
+  margin-top: 0;
+}
+
+.skills h3 {
+  margin: 30px 0 30px 0;
+}
+
+.foto {
+  width: 100px;
+  height: 100px;
+  margin-top: 15px;
+}
+
+.foto-css3 {
+  margin-bottom: -10px; 
+  margin-top: 10px;
+  width: 120px;
+  height: 120px;
+}
+
+/* Portfolio */
+
+#portfolio h1 {
+  font-family: 'Roboto Slab', serif;
+  font-size: 3rem;
+}
+
+.texto {
+  padding: 0 2% 0 4%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 600px;
+  align-self: center;
+  position: relative;
+}
+
+.cartao {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row;
+  padding: 5px 20px;
+  height: 500px;
+  padding: 30px 0;
+  background-color: rgb(52, 167, 196);
+  background: linear-gradient(to right, rgb(105, 225, 255),rgb(22, 100, 119));;
+  color: white;
+}
+
+.title-img h3 {
+  font-family: 'Roboto Slab', serif;
+  padding-bottom:2rem;
+}
+
+.title-img img {
+  border-radius: 8px;
+  width: 478px;
+  height: 312px;
+}
+
+.link-externo {
+  width: 150px;
+  height: 40px;
+  border-radius: 8px;
+  margin-top: 4%;
+  display: inline-block;
+  left: calc(50% - 75px);
+  background-color: rgb(213, 252, 248);
+  color: rgb(52, 167, 196);
+  font-size: 16px;
+  box-shadow: 3px 3px 6px rgb(196, 204, 206);
+}
+
+.link-externo:hover {
+  color: rgb(52, 167, 196);
+  background-color: rgb(213, 252, 248);
+  text-shadow: 0 0 8px rgb(52, 167, 196);
+  transition: 250ms all linear;
+  cursor: pointer;
+}
+
+button:hover {
+  transition: 250ms all linear;
+  text-shadow: 0 0 7px rgb(213, 252, 248);
+  cursor: pointer;
+}
+/* Contatos */
+
+#contato {
+  background-image: url('./imagens/mail-blackP.jpg');
+  background-size: cover;
+  color: white;
+}
+
+.contate-me {
+  padding: 5% 0 5% 0;
+}
+
+.contate-me h3 {
+  padding: 1% 0 2% 0;
+}
+
+#contato span {
+  display: block;
+  margin: 8px;
+}
+
+#contato textarea {
+  box-shadow: 4px 4px 6px black;
+  border-radius: 8px;
+}
+
+#contato input {
+  width: 435px;
+  height: 25px;
+  box-shadow: 4px 4px 6px black;
+  border-radius: 8px;
+}
+
+#contato button {
+  border-radius: 8px;
+  width: 120px;
+  height: 40px;
+  background-color: rgb(52, 167, 196);
+  font-family: 'Roboto Slab', serif;
+  color: white;
+  font-size: 16px;
+  box-shadow: 4px 4px 6px black;
+  margin-top: 1%;
+}
+
+/* Footer */
+
+.Footer {
+  background-color: rgb(52, 167, 196);
+  background: linear-gradient(to right, rgb(105, 225, 255),rgb(22, 100, 119));
+  font-family: 'Roboto Slab', serif;
+  color: white;
+  display: inline-block;
+  width: 100%;
+}
+
+.Footer .link {
+  display: inline-block;
+  margin: 0 3%;
+  padding: 15px 5%;
+}
+
+.Footer p {
+  margin: 0;
+  padding: 1rem;
+  text-shadow: 4px 4px 4px black;
+}
+
+.Footer svg {
+  height: 2rem;
+  margin-left: 1rem;
+}
