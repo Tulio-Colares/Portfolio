@@ -29,7 +29,7 @@ export default class Portfolio extends Component {
               <div className="texto">
                 <p>Descubra qual o par perfeito para o seu cão com o Tindog! Inspirado no Tinder, este mockup 
                   usa diversos elementos de HTML, CSS e Bootstrap integrados ao React. </p>
-                  <ExternalLink href="https://tin-testando.herokuapp.com/">
+                  <ExternalLink href="https://tincao.netlify.app/">
                     <button className="link-externo">Ver projeto</button>
                   </ExternalLink>
               </div>
@@ -46,7 +46,7 @@ export default class Portfolio extends Component {
                 <p>Projeto criado para demonstrar o uso do de APIs para coleta de diversos dados, fotos 
                 e informações sobre diferentes pokemons, além de paginação e busca específica por um pokemon 
                 que o usuário defina. Habilidades usadas: React, hooks, HTML, CSS. </p>
-                  <ExternalLink href="https://pokemon-com-api.herokuapp.com/">
+                  <ExternalLink href="https://pokemon-com-api.netlify.app/">
                     <button className="link-externo">Ver projeto</button>
                   </ExternalLink>
               </div>
@@ -62,7 +62,7 @@ export default class Portfolio extends Component {
               <div className="texto">
                 <p>Projeto que usa uma API do youtube para buscar videos de diversos temas. Habilidades 
                 usadas: React, hooks, HTML, CSS, semantic-ui</p>
-                  <ExternalLink href="https://pesquisa-de-videos.herokuapp.com/">
+                  <ExternalLink href="https://pesquisa-videos.netlify.app/">
                     <button className="link-externo">Ver projeto</button>
                   </ExternalLink>
               </div>
