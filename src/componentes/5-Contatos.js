@@ -55,7 +55,7 @@ export default function Contatos() {
           <form  onSubmit={FuncEnviar}>
             <span><input type="text" placeholder="Nome:" value={nome} onChange={FuncNome}></input></span>
             <span><input type="text" placeholder="E-mail p/ contato:" value={email} onChange={FuncEmail}></input></span>
-            <span><textarea cols="59" rows="12" placeholder="Sua Mensagem:" value={mensagem} onChange={FuncMensagem}></textarea></span>
+            <span><textarea cols="40" rows="12" placeholder="Sua Mensagem:" value={mensagem} onChange={FuncMensagem}></textarea></span>
             <span><button type="submit" style={{ background : loader ? "#ccc" :"rgb(52, 167, 196)" }} >Enviar</button></span>
           </form>
         </div>
