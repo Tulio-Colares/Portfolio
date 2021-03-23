@@ -72,14 +72,15 @@ export default class Portfolio extends Component {
           <Carousel.Item>
             <div className="cartao">
               <div className="title-img">
-                <h3>Blog</h3>
-                <img src={blog} alt="blog-img"/>
+                <h3>Lista de Tarefas</h3>
+                <img src={lista} alt="youtube-img"/>
               </div>
               <div className="texto">
-                <p>Aplicativo full-stack simples, onde se criam novos textos que, uma vez postados, ficam salvos 
-                num banco de dados que não se perde. Habilidades usadas: Javascript, HTML, CSS, Node, MongoDB</p>
-                  <ExternalLink href="">
-                    <button className="link-externo" onClick={this.Alerta}>Ver projeto</button>
+                <p>Não perca nenhum dos seus afazeres! Este aplicativo Full-stack permite que novas tarefas sejam 
+                  criadas, editadas e deletadas, bem como permite a criação de diversas listas para organizar tais 
+                  tarefas de forma mais intuitiva. Habilidades usadas: Javascript, HTML, CSS, Node, MongoDB</p>
+                  <ExternalLink href="https://lista-tarefas-tulio.herokuapp.com/">
+                    <button className="link-externo">Ver projeto</button>
                   </ExternalLink>
               </div>
             </div>
@@ -88,13 +89,12 @@ export default class Portfolio extends Component {
           <Carousel.Item>
             <div className="cartao">
               <div className="title-img">
-                <h3>Lista de Tarefas</h3>
-                <img src={lista} alt="youtube-img"/>
+                <h3>Blog</h3>
+                <img src={blog} alt="blog-img"/>
               </div>
               <div className="texto">
-                <p>Não perca nenhum dos seus afazeres! Este aplicativo Full-stack permite que novas tarefas sejam 
-                  criadas, editadas e deletadas, bem como permite a criação de diversas listas para organizar tais 
-                  tarefas de forma mais intuitiva. Habilidades usadas: Javascript, HTML, CSS, Node, MongoDB</p>
+                <p>Aplicativo full-stack simples, onde se criam novos textos que, uma vez postados, ficam salvos 
+                num banco de dados que não se perde. Habilidades usadas: Javascript, HTML, CSS, Node, MongoDB</p>
                   <ExternalLink href="">
                     <button className="link-externo" onClick={this.Alerta}>Ver projeto</button>
                   </ExternalLink>
