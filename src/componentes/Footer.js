@@ -22,7 +22,7 @@ export default function Footer() {
         <i class="fab fa-github"></i>
       </a>
       
-      <a className="footer-link link" href="https://www.linkedin.com/in/t%c3%BAlio-colares-74014a102">
+      <a className="footer-link link" href="https://www.linkedin.com/mwlite/in/túlio-colares-74014a102">
         LinkedIn 
         <i class="fab fa-linkedin"></i>
       </a>
